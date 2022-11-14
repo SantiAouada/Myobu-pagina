@@ -1,0 +1,47 @@
+body{
+    background-image: url("images.jpeg");
+}
+.contenedor {
+    background-image: url(banner2.jpg);
+    width: 800cm;
+    height: 300px;
+    display: flex;
+    top: auto;
+    
+}
+
+html{
+    scroll-behavior:  smooth;
+} 
+
+h1{font-style: italic ;
+    font-size: 200px;
+    text-align: center 
+}
+hr {
+    height: 10px;
+    background-color: black;
+}
+h2{
+  font: size 100px;
+  text-align: center;
+ }
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+  .three {
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+  }
+

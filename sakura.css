@@ -1,0 +1,33 @@
+body{
+    background-image: url("images.jpeg");
+}
+
+.contenedor {
+    background-image: url(banner2.jpg);
+    width: 800cm;
+    height: 300px;
+    display: flex;
+    top: auto;
+    
+}
+h2{
+text-align: center;
+font-size: 3cm;
+}
+h3{
+    font-size: 1cm;
+}
+h4{
+    font-size: 1cm;
+}
+p{
+    font-size: 4ch
+  
+    ;}
+    button{
+        font-size: 2ch;
+    }
+    hr{
+       height: 10px;
+       background-color: black; 
+    }
