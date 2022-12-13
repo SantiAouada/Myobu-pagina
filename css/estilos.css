@@ -1,0 +1,39 @@
+body{
+    
+   
+}
+header{}
+
+
+.presentacion{
+    
+    background:linear-gradient(rgba(55, 39, 120, 0.5), rgba(47, 80, 63, 0.6)),  url(/pexels-toni-cuenca-688575.jpg) ;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px
+}
+
+.listado{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    margin-top: 150px;
+}
+.articulo{
+   
+ margin-right: 55px;   
+}
+.remeras{
+height: 270px;
+width: 320px;
+}
+.zorro{
+    height: 50vh;
+    width: 50vw;
+}
+.intro{
+    font-size: 60px;
+    color: red;
+}
